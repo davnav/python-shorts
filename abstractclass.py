@@ -11,8 +11,7 @@ from abc import ABC,abstractmethod
 
 
 # In Python 3.4 and above, you can inherit from ABC. In earlier versions of Python, you need to specify your class's metaclass as ABCMeta.
-# Specifying the metaclass has different syntax in Python 3 and Python 2
-
+#Specifying the metaclass has different syntax in Python 3 and Python 2
 class Vehicle(ABC):                  # declare a abstract class . Note - We have inherited ABC
     
     @abstractmethod             # going to declare a abstract method
